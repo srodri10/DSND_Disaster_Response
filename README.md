@@ -12,10 +12,8 @@ The web app also displays visualizations of the data.
 This code takes as its input csv files containing message data and message categories (labels), and creates an SQLite database containing a merged and cleaned version of this data.
 #### train_classifier.py: 
 This code takes the SQLite database produced by process_data.py as an input and uses the data contained within it to train and tune a ML model for categorizing messages. The output is a pickle file containing the fitted model. Test evaluation metrics are also printed as part of the training process.
-#### data: 
-This folder contains sample messages and categories datasets in csv format.
-#### app: 
-This folder contains all of the files necessary to run and render the web app.
+ 
+You can find all of the files necessary to run and render the web app in the folder app
 
 ### Screenshots
 
