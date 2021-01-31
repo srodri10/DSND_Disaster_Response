@@ -19,6 +19,7 @@ You can find all of the files necessary to run and render the web app in the fol
 
 
 
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
