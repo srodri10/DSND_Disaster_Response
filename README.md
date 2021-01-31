@@ -20,6 +20,9 @@ You can find all of the files necessary to run and render the web app in the fol
 ![image](https://user-images.githubusercontent.com/46485715/106393125-93a2f600-63f5-11eb-900b-3575e443f255.png)
 
 
+![image](https://user-images.githubusercontent.com/46485715/106393413-4031a780-63f7-11eb-9ae4-2509538982e6.png)
+
+
 
 
 ### Instructions:
