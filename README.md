@@ -48,5 +48,9 @@ This project requires Python 3.x and the following Python libraries installed: N
 3. Go to http://0.0.0.0:3001/
 
 
-#### License:
+### License:
 This app was completed as part of the Udacity Data Scientist Nanodegree. Code templates and data were provided by Udacity. The data was originally sourced by Udacity from Figure Eight.
+
+### Note:
+
+https://view6914b2f4-3001.udacity-student-workspaces.com/
