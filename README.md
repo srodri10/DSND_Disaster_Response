@@ -22,7 +22,7 @@ You can find all of the files necessary to run and render the web app in the fol
 
 ![image](https://user-images.githubusercontent.com/46485715/106393413-4031a780-63f7-11eb-9ae4-2509538982e6.png)
 
-The datasets included in this repository are pretty clean, the primary transform steps of the ETL are to a remove a few values that don't match up between the categories/messages data and remove a few bad remaining values (child_alone was deleted, some messages in toher languages were deleted also) ...
+The datasets included in this repository are pretty clean, the primary transform steps of the ETL are to a remove a few values that don't match up between the categories/messages data and remove a few bad remaining values (child_alone was deleted, some messages in toher languages were deleted also, etc) ...
 ...but it's important to mention that is very unbalanced (extremely skewed), with very few positive examples for several message categories. 
 In some cases, the proportion of positive examples is less than 5%, or even less than 1%. 
 
