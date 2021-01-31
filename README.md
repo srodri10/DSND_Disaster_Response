@@ -1,5 +1,26 @@
 # Disaster Response Pipeline Project
 
+
+### Motivation:
+The purpose of the project is to build a model for an API that classifies disaster messages. Using the web app an emergency worker ould use during a disaster event (e.g. an earthquake or hurricane) and can input a new message and get classification results in several categories so to have an idea what kind of help is needed ("water", "shelter", "food", etc.) or to send to the appropiate aid agency. 
+
+The web app also displays visualizations of the data.
+
+### File Description:
+
+#### process_data.py: 
+This code takes as its input csv files containing message data and message categories (labels), and creates an SQLite database containing a merged and cleaned version of this data.
+#### train_classifier.py: 
+This code takes the SQLite database produced by process_data.py as an input and uses the data contained within it to train and tune a ML model for categorizing messages. The output is a pickle file containing the fitted model. Test evaluation metrics are also printed as part of the training process.
+#### data: 
+This folder contains sample messages and categories datasets in csv format.
+#### app: 
+This folder contains all of the files necessary to run and render the web app.
+
+### Screenshots
+
+
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
