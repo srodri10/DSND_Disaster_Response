@@ -22,7 +22,16 @@ You can find all of the files necessary to run and render the web app in the fol
 
 ![image](https://user-images.githubusercontent.com/46485715/106393413-4031a780-63f7-11eb-9ae4-2509538982e6.png)
 
+The datasets included in this repository are pretty clean, the primary transform steps of the ETL are to a remove a few values that don't match up between the categories/messages data and remove a few bad remaining values but is very unbalanced (extremely skewed), with very few positive examples for several message categories. In some cases, the proportion of positive examples is less than 5%, or even less than 1%. 
 
+In such cases, even though the classifier accuracy is very high (since it tends to predict that the message does not fall into these categories), the classifier recall (i.e. the proportion of positive examples that were correctly labelled) tends to be very low.
+
+Possible improvements are to increase the weight of recall in the score significantly in order to catch more of these low representation classes, synthetic data generation, model selection and parameters fine-tuning, etc
+
+
+
+### Install:
+This project requires Python 3.x and the following Python libraries installed: NumPy,Pandas, Matplotlib, Json, Plotly, Nltk, Flask, Sklearn, Sqlalchemy, Sys, Re, Pickle
 
 
 ### Instructions:
@@ -37,3 +46,7 @@ You can find all of the files necessary to run and render the web app in the fol
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+
+#### License:
+This app was completed as part of the Udacity Data Scientist Nanodegree. Code templates and data were provided by Udacity. The data was originally sourced by Udacity from Figure Eight.
