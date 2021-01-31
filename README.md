@@ -17,6 +17,8 @@ You can find all of the files necessary to run and render the web app in the fol
 
 ### Screenshots
 
+![image](https://user-images.githubusercontent.com/46485715/106393125-93a2f600-63f5-11eb-900b-3575e443f255.png)
+
 
 
 
